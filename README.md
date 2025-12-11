@@ -39,24 +39,24 @@ WebDevTools Pro es una suite completa de herramientas de desarrollo que se integ
 
 ```html
 <!-- Cargar desde jsDelivr -->
-<script src="https://cdn.jsdelivr.net/gh/fer626/webdevtools-pro@main/webdevtools.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fer626/nekotek-devtools@main/index.js"></script>
 ```
 
 ### Opción 2: NPM (Próximamente)
 
 ```bash
-npm install webdevtools-pro
+npm install nekotek-devtools
 ```
 
 ```javascript
-import WebDevTools from 'webdevtools-pro';
+import WebDevTools from 'nekotek-devtools';
 ```
 
 ### Opción 3: Descarga Directa
 
 ```html
 <!-- Archivo local -->
-<script src="./path/to/webdevtools.js"></script>
+<script src="./path/to/index.js"></script>
 ```
 
 ### Opción 4: Carga Dinámica
@@ -65,7 +65,7 @@ import WebDevTools from 'webdevtools-pro';
 // Cargar en runtime
 (function() {
   const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/gh/fer626/webdevtools-pro@main/webdevtools.js';
+  script.src = 'https://cdn.jsdelivr.net/gh/fer626/nekotek-devtools@main/index.js';
   document.head.appendChild(script);
 })();
 ```
@@ -482,8 +482,8 @@ Creado con ❤️ para la comunidad de desarrolladores web.
 
 ¿Tienes preguntas o problemas?
 
-- 🐛 [Reportar un bug](https://github.com/fer626/webdevtools-pro/issues)
-- 💡 [Solicitar una feature](https://github.com/fer626/webdevtools-pro/issues)
+- 🐛 [Reportar un bug](https://github.com/fer626/nekotek-devtools/issues)
+- 💡 [Solicitar una feature](https://github.com/fer626/nekotek-devtools/issues)
 - 📧 Email: soporte@webdevtools.com
 - 💬 Discord: [Únete a nuestra comunidad](#)
 
